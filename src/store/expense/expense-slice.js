@@ -7,17 +7,32 @@ const addToCart = createSlice({
       ? JSON.parse(localStorage.getItem("cart"))
       : [],
     axtar: [],
-    data: [],
     info: localStorage.getItem("info")
       ? JSON.parse(localStorage.getItem("info"))
       : [],
+    fullData: [],
+    car:localStorage.getItem("car")?JSON.parse(localStorage.getItem("car")):[],
   },
 
   reducers: {
-    getDatax: (state, action) => {
-      state.data = action.payload;
-    },
+    cars:(state,action)=>{
+      state.car.push(action.payload)
+      localStorage.setItem("car",JSON.stringify(state.car))
 
+    },
+    rem:(state,action)=>{
+     
+      state.car.splice(action.payload,1)
+      localStorage.setItem("car",JSON.stringify(state.car))
+
+    },
+    fetchData: (state, action) => {
+      if (state.fullData.length >=1) {
+      }else{
+        state.fullData=action.payload;
+      
+      }
+    },
     addCart: (state, action) => {
       const dataCart = state.cart.findIndex(
         (product) => product.id === action.payload.id
@@ -60,7 +75,7 @@ const addToCart = createSlice({
     search: (state, action) => {
       const { searchValue } = action.payload;
 
-      const map = state.data.filter((product) =>
+      const map = state.fullData.filter((product) =>
         product.name.toLowerCase().includes(searchValue.toLowerCase())
       );
 
@@ -86,9 +101,17 @@ const addToCart = createSlice({
       localStorage.setItem("info", JSON.stringify(state.info));
     },
   },
-  
 });
 
-export const { addCart, removeCart, plus, minus, search, getDatax, dataInfo } =
-  addToCart.actions;
+export const {
+  fetchData,
+  addCart,
+  removeCart,
+  plus,
+  minus,
+  search,
+  dataInfo,
+  cars,
+  rem,
+} = addToCart.actions;
 export default addToCart.reducer;

@@ -8,6 +8,7 @@ import { Provider } from "react-redux";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Main } from "./pages/home/main";
 import { Details } from "./pages/item-view/itemDetails";
+import { Bag } from "./components/cart/bag";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,7 +17,7 @@ root.render(
       <BrowserRouter>
         <Routes>
           <Route path="/" exact element={<App/>}>
-            <Route path="/" element={<Main/>} />
+            <Route path="/" element={<><Main> </Main><Bag ></Bag></>} />
             <Route path="item" element={<Details/>} />
             <Route path="*/" element={""} />
             <Route path="*/" element={""} />
