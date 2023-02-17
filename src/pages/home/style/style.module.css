@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 41px;
+       column-gap: 41px;
+  background: rgba(199, 202, 197, 0.5);
+  row-gap: 60px;
+  padding: 20px 0px;
+}
+.main .name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1A1F16;
+  margin-top: 13px;
+}
+.main .model {
+  font-size: 16px;
+  line-height: 19px;
+  color: #60695C;
+  margin-top: 10px;
+}
+.main .cont {
+  margin-top: 10px;
+  display: flex;
+  width: 94%;
+  /* justify-content: space-around; */
+  justify-content: space-between;
+  padding-left: 11px;
+  align-items: center;
+  color: #1A1F16;
+}
+.main .cont .icon {
+  display: block;
+  width: 30px;
+  height: 29px;
+  padding: 5px;
+  border-radius: 32%;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+.main .cont .price {
+  font-size: 20px;
+  line-height: 24px;
+}/*# sourceMappingURL=style.module.css.map */

@@ -1,0 +1,49 @@
+.bag {
+    width: 25%;
+    text-align: center;
+position: relative;
+    &::after{
+        content: "";
+        width: 2px;
+        height: 25%;
+        background-color: rgb(32, 32, 32);
+        display: block;
+        position: absolute;
+        top: 1%;
+        left: -9%;
+    }
+
+    .bagName {
+        margin-bottom: 10px;
+        font-size: 29px;
+        line-height: 47px;  
+        color: #1A1F16;
+
+    }
+
+    .bagCont {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 15px;
+        row-gap: 15px;
+
+        .bagImg {
+
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+    }
+
+    .bagButton{
+        padding: 7px 46px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 13px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    }
+}

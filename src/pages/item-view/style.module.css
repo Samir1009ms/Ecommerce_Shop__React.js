@@ -1,0 +1,108 @@
+.item {
+  width: 75%;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item .details {
+  width: 80%;
+}
+.item .details .backs {
+  color: #12805D;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+.item .details .product .productContainer {
+  width: 100%;
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.item .details .product .productContainer .productLeft {
+  width: 17%;
+}
+.item .details .product .productContainer .productLeft .imgs {
+  height: 100px;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 12px;
+}
+.item .details .product .productContainer .productCenter {
+  width: 282px;
+}
+.item .details .product .productContainer .productCenter .img {
+  width: 282px;
+  height: 340px;
+  border-radius: 40px;
+}
+.item .details .product .productContainer .productRight {
+  color: #1A1F16;
+  width: 70%;
+}
+.item .details .product .productContainer .productRight .name {
+  font-size: 60px;
+  line-height: 74px;
+  margin-bottom: 10px;
+}
+.item .details .product .productContainer .productRight .model {
+  font-size: 31px;
+  line-height: 38px;
+  margin-bottom: 17px;
+  color: rgba(26, 31, 22, 0.5);
+}
+.item .details .product .productContainer .productRight .ratingCont {
+  margin-bottom: 7px;
+}
+.item .details .product .productContainer .productRight .price {
+  font-size: 31px;
+  line-height: 38px;
+  color: #1A1F16;
+  margin-bottom: 14px;
+}
+.item .details .product .productContainer .productRight .rating {
+  background: #12805D;
+}
+.item .details .product .productContainer .productRight .info {
+  width: 100%;
+  font-size: 20px;
+  line-height: 24px;
+}
+.item .details .product .productContainer .productRight .button {
+  float: right;
+  border: none;
+  outline: none;
+  background-color: black;
+  padding: 7px 30px;
+  border-radius: 11px;
+  font-size: 16px;
+  margin-top: 23px;
+  color: white;
+}
+.item .infox {
+  width: 80%;
+}
+.item .infox::before {
+  content: "";
+  width: 100%;
+  height: 3px;
+  display: block;
+  background-color: #5c5c5c;
+  margin-top: 25px;
+  margin-bottom: 16px;
+}
+.item .infox .infoText {
+  font-size: 31px;
+  line-height: 38px;
+  color: #1A1F16;
+}
+.item .infox .infoTxt {
+  font-size: 20px;
+  line-height: 24px;
+  color: #60695C;
+}/*# sourceMappingURL=style.module.css.map */
