@@ -1,0 +1,114 @@
+.shop {
+    width: 75%;
+    margin-left: 70px;
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 729px;
+    .shopTop {
+        width: 86%;
+
+        .shopTopText {
+            font-size: 44px;
+            line-height: 59px;
+            color: #1A1F16;
+        }
+    }
+
+    .shopBottom {
+        width: 86%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+
+        .shopContainer {
+            display: flex;
+            width: 100%;
+            background-color: white;
+            border-radius: 20px;
+            align-items: center;
+
+            .img {}
+
+            .container {
+                color: #1A1F16;
+                width: 73%;
+
+                .name {
+                    font-size: 31px;
+                    line-height: 38px;
+                    margin-bottom: 11px;
+
+                    .delete{
+                        color: #dc0d0d;
+                        float: right;
+                        cursor: pointer;
+                    }
+                }
+
+                .model {
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #60695C;
+                    margin-bottom: 13px;
+                }
+
+                .text {
+                    margin-bottom: 13px;
+                }
+
+                .rating {
+                    margin-bottom: 13px;
+                    color: #12805D;
+
+                }
+
+                .priceCont {
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #1A1F16;
+
+                    .price {}
+
+                    .counter {
+                        float: right;
+                        display: flex;
+                        align-items: center;
+                        column-gap: 7px;
+                        .minus {
+                            color: #E5252C;
+                            cursor: pointer;
+                            display: block;
+                            height: 16px;
+                        }
+
+                        .count {
+                            font-size: 18px;
+                        }
+
+                        .plus {
+                            color: #02D693;
+                            cursor: pointer;
+                            display: block;
+                            height: 16px;
+                        }
+                    }
+
+                    .minus {
+                        color: #E5252C;
+                        cursor: pointer;
+                    }
+
+                    .count {}
+
+                    .plus {
+                        color: #02D693;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

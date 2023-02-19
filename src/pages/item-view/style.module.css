@@ -56,17 +56,15 @@
   margin-bottom: 17px;
   color: rgba(26, 31, 22, 0.5);
 }
-.item .details .product .productContainer .productRight .ratingCont {
+.item .details .product .productContainer .productRight .rating {
   margin-bottom: 7px;
+  color: #12805D;
 }
 .item .details .product .productContainer .productRight .price {
   font-size: 31px;
   line-height: 38px;
   color: #1A1F16;
   margin-bottom: 14px;
-}
-.item .details .product .productContainer .productRight .rating {
-  background: #12805D;
 }
 .item .details .product .productContainer .productRight .info {
   width: 100%;

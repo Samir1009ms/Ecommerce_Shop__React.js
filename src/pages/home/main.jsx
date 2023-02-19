@@ -10,8 +10,9 @@ export function Main() {
       alignItems: "center",
       rowGap: 42}}>
       <Search />
+      
         <Product />
-  
+    
     </section>
   );
 }

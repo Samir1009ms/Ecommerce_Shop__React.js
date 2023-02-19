@@ -1,10 +1,16 @@
 import axios from "axios";
 const BASE_URL = "http://localhost:3300/";
 
-export class itemsApi {
+export  class itemsApi {
   static async createApi(product) {
+    product={"bas":product}
     return (await axios.post(`${BASE_URL}basket`, product)).data;
   }
+
+  static async bagData() {
+    return ((await axios.get(`${BASE_URL}basket`)).data).bas
+  }
+
 
   static async fetchAllApi() {
     return (await axios.get(`${BASE_URL}items`)).data;
@@ -14,8 +20,8 @@ export class itemsApi {
     return (await axios.delete(`${BASE_URL}basket/${product.id}`, product)).data;
   }
 
-  static async updateApi(itemValues, itemId) {
-    return (await axios.patch(`${BASE_URL}/${itemId}`, itemValues)).data;
+  static async updateApi() {
+    return (await axios.get(`${BASE_URL}basket`)).data;
   }
 
   static async FetchID(itemID) {

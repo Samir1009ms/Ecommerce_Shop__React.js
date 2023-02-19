@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.shop {
+  width: 100%;
+  padding-left: 55px;
+  row-gap: 20px;
+  display: flex;
+  min-height: 729px;
+  background-color: #c6c6c6;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.shop .shopTop {
+  width: 86%;
+}
+.shop .shopTop .shopTopText {
+  font-size: 44px;
+  line-height: 59px;
+  color: #1A1F16;
+}
+.shop .shopLeft {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+.shop .shopLeft .shopInputCont {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  width: 90%;
+  border-radius: 12px;
+}
+.shop .shopLeft .shopInputCont .melumat .adres {
+  font-size: 31px;
+  line-height: 38px;
+  color: #1A1F16;
+  margin-bottom: 20px;
+}
+.shop .shopLeft .shopInputCont .melumat .inputText {
+  font-size: 20px;
+  line-height: 24px;
+  color: #1A1F16;
+  margin-bottom: 7px;
+}
+.shop .shopLeft .shopInputCont .Btn {
+  padding: 6px 17px;
+  background: none;
+  border-radius: 50px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.shop .shopLeft .shopBottom {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+}
+.shop .shopLeft .shopBottom .shopContainer {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  border-bottom: 1px solid #1A1F16;
+}
+.shop .shopLeft .shopBottom .shopContainer .container {
+  color: #1A1F16;
+  width: 73%;
+}
+.shop .shopLeft .shopBottom .shopContainer .container .name {
+  font-size: 31px;
+  line-height: 38px;
+  margin-bottom: 11px;
+}
+.shop .shopLeft .shopBottom .shopContainer .container .name .delete {
+  color: #dc0d0d;
+  float: right;
+  cursor: pointer;
+}
+.shop .shopLeft .shopBottom .shopContainer .container .model {
+  font-size: 20px;
+  line-height: 24px;
+  color: #60695C;
+  margin-bottom: 13px;
+}
+.shop .shopLeft .shopBottom .shopContainer .container .text {
+  margin-bottom: 13px;
+}
+.shop .shopLeft .shopBottom .shopContainer .container .rating {
+  margin-bottom: 13px;
+  color: #12805D;
+}
+.shop .shopLeft .shopBottom .shopContainer .container .priceCont {
+  font-size: 20px;
+  line-height: 24px;
+  color: #1A1F16;
+}
+.shop .shopLeft .shopBottom .shopContainer .container .priceCont .counter {
+  float: right;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 7px;
+       column-gap: 7px;
+}
+.shop .shopLeft .shopBottom .shopContainer .container .priceCont .counter .minus {
+  color: #E5252C;
+  cursor: pointer;
+  display: block;
+  height: 16px;
+}
+.shop .shopLeft .shopBottom .shopContainer .container .priceCont .counter .count {
+  font-size: 18px;
+}
+.shop .shopLeft .shopBottom .shopContainer .container .priceCont .counter .plus {
+  color: #02D693;
+  cursor: pointer;
+  display: block;
+  height: 16px;
+}
+.shop .shopLeft .shopBottom .shopContainer .container .priceCont .minus {
+  color: #E5252C;
+  cursor: pointer;
+}
+.shop .shopLeft .shopBottom .shopContainer .container .priceCont .plus {
+  color: #02D693;
+  cursor: pointer;
+}
+.shop .shopRight {
+  width: 17%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.shop .shopRight .shopCont {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 11px;
+}
+.shop .shopRight .shopCont .rightText {
+  display: flex;
+  justify-content: space-between;
+}
+.shop .shopRight .shopCont .rightBtn {
+  padding: 7px;
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.shop .shopRight .rightBottom .rightButton {
+  float: right;
+  padding: 7px 28px;
+  background: none;
+  border: 1px solid black;
+  border-radius: 50px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.module.css.map */
