@@ -10,14 +10,14 @@ export function Bag({off}) {
 
   const navigate=useNavigate()
 
-  let car  = Object.values(useSelector((product) => product.shop.car));
+  let cart  = Object.values(useSelector((product) => product.shop.cart));
 
   const [totals,setTotals]=useState(0)
   let total =0
 
   function TotalPrice (){
   
-    car.map((product)=>(
+    cart.map((product)=>(
       
       // console.log(product.count);
 
@@ -36,7 +36,7 @@ TotalPrice()
   return (
     <div className={style.bag}>
       <h3 className={style.bagName}>Bag</h3>
-      <BAgItem car={car} />
+      <BAgItem car={cart} />
       {off && <h4>Total Bag : ${totals} </h4>}
       {off ? <button onClick={()=>navigate("/check")} className={style.bagButton}>
         <IoBagHandle /> Checkout

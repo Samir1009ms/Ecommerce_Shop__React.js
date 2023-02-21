@@ -19,7 +19,7 @@
       "name": "Sony ZX331BT",
       "model": "Light Grey",
       "price": "39.99",
-      "rating": "4.8",
+      "rating": "3.7",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       "count": 1,
       "img": [
@@ -48,7 +48,7 @@
       "model": "Subway Blue",
       "price": "619.99",
       "count": 1,
-      "rating": "4.5",
+      "rating": "4.2",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       "img": [
         "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple11-Green.svg",
@@ -63,7 +63,7 @@
       "price": "3249.99",
       "count": 1,
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
-      "rating": "4.5",
+      "rating": "5",
       "img": [
         "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/macbook-16-pro.svg",
         "https://resim.epey.com/787548/b_apple-macbook-pro-13-3-m2-8gb-256ssd-gumus-2.jpg",
@@ -76,7 +76,7 @@
       "model": "Subway BlueProduct RED",
       "price": "619.99",
       "count": 1,
-      "rating": "4.5",
+      "rating": "3.9",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       "img": [
         "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple11-red.svg",
@@ -90,7 +90,7 @@
       "model": "Milky White",
       "price": "619.99",
       "count": 1,
-      "rating": "4.5",
+      "rating": "3.2",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       "img": [
         "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple11-white.svg",
@@ -104,7 +104,7 @@
       "model": "Rose Pink",
       "price": " 729.99",
       "count": 1,
-      "rating": "4.5",
+      "rating": "5",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       "img": [
         "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple12-pink.svg",
@@ -119,7 +119,7 @@
       "price": " 729.99",
       "count": 1,
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
-      "rating": "4.5",
+      "rating": "3.9",
       "img": [
         "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple12-blue.svg",
         "https://cdn.dsmcdn.com/ty692/product/media/images/20230117/17/260456228/250485459/3/3_org_zoom.jpg",
@@ -133,7 +133,7 @@
       "price": " 3199.99",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       "count": 1,
-      "rating": "4.5",
+      "rating": "2.4",
       "img": [
         "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/dellxps15-1.svg",
         "https://cdn03.ciceksepeti.com/cicek/kcm61759377-1/L/dell-xps-13-9310-i7-1185g7-vpro-16gb-1tb-ssd-13.4-fhd-windows-10-pro-kcm61759377-1-a806e9b18cd94b3caba464b46b447fa6.jpg",
@@ -147,7 +147,7 @@
       "price": " 1029.99",
       "count": 1,
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
-      "rating": "4.5",
+      "rating": "3.6",
       "img": [
         "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple13Pro-silver.svg",
         "https://cdn.dsmcdn.com/ty440/product/media/images/20220526/14/116422502/268528479/3/3_org_zoom.jpg",
@@ -161,7 +161,7 @@
       "price": " 1029.99",
       "count": 1,
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
-      "rating": "4.5",
+      "rating": "5",
       "img": [
         "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple13Pro-grey.svg",
         "https://cdn.dsmcdn.com/ty554/product/media/images/20221008/1/188927670/261328841/3/3_org_zoom.jpg",
@@ -173,7 +173,7 @@
       "name": "Samsung Galaxy Note 21 ",
       "model": "2 - Options",
       "price": " 999.99",
-      "rating": "4.5",
+      "rating": "3.3",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       "count": 1,
       "img": [
@@ -187,7 +187,7 @@
       "name": "Samsung Galaxy S21+ ",
       "model": "Lilac Purple",
       "price": " 849.99",
-      "rating": "4.5",
+      "rating": "3",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       "count": 1,
       "img": [
@@ -201,7 +201,7 @@
       "name": "Dell XPS 13",
       "model": "White",
       "price": " 1799.99",
-      "rating": "4.5",
+      "rating": "4.3",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       "count": 1,
       "img": [
@@ -216,7 +216,7 @@
       "model": "Light Grey",
       "price": " 1899.99",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
-      "rating": "4.5",
+      "rating": "2.6",
       "count": 1,
       "img": [
         "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/dellXps15-2.svg",
@@ -227,46 +227,32 @@
   ],
   "basket": {
     "bas": {
+      "2": {
+        "id": 2,
+        "name": "Sony ZX331BT",
+        "model": "Light Grey",
+        "price": "39.99",
+        "rating": "3.7",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
+        "count": 1,
+        "img": [
+          "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/qulaqciq.svg",
+          "https://cdn.cimri.io/image/480x480/jbl-tune-510bt-siyah-multi-connect-wireless-kulaklik_528706694.jpg",
+          "https://www.kindpng.com/picc/m/12-126171_bluetooth-kulaklk-kafa-st-hd-png-download.png"
+        ]
+      },
       "3": {
         "id": 3,
         "name": "Iphone 11",
         "model": "Serious Black",
         "price": "619.99",
-        "count": 3,
+        "count": 1,
         "rating": "4.5",
         "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
         "img": [
           "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/Apple11-Black.svg",
           "https://maxi.az/upload/resize_cache/webp/iblock/de2/450x550q100-de2cc82df7acd0d7f15067704b830d11.webp",
           "https://maxi.az/upload/resize_cache/webp/iblock/c94/450x550q100-c9470097a07f847889738db26f404b07.webp"
-        ]
-      },
-      "4": {
-        "id": 4,
-        "name": "Iphone 11",
-        "model": "Subway Blue",
-        "price": "619.99",
-        "count": 1,
-        "rating": "4.5",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
-        "img": [
-          "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple11-Green.svg",
-          "https://productimages.hepsiburada.net/s/32/550/10356112785458.jpg",
-          "https://productimages.hepsiburada.net/s/32/1100/10356112752690.jpg/format:webp"
-        ]
-      },
-      "7": {
-        "id": 7,
-        "name": "Iphone 11",
-        "model": "Milky White",
-        "price": "619.99",
-        "count": 1,
-        "rating": "4.5",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
-        "img": [
-          "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple11-white.svg",
-          "https://cdn.dsmcdn.com/ty734/product/media/images/20230216/14/282148588/113335703/2/2_org_zoom.jpg",
-          "https://cdn.dsmcdn.com/ty733/product/media/images/20230216/14/282148588/113335703/3/3_org_zoom.jpg"
         ]
       }
     }

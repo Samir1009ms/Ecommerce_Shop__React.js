@@ -1,6 +1,6 @@
 .nav {
   width: 70px;
-  height: 100vh;
+  min-height: 729px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -8,7 +8,10 @@
   text-align: center;
   background: cornflowerblue;
   position: fixed;
-  top: 0;
+  top: 10px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  left: 10px;
 }
 .nav .navList {
   list-style: none;
@@ -22,6 +25,22 @@
 .nav .navList .navListText {
   cursor: pointer;
 }
+.nav .navList .navListText .navIcon {
+  width: 40px;
+  height: 40px;
+  padding: 9px;
+  border-radius: 8px;
+}
 .nav .exit {
   cursor: pointer;
+  align-self: center;
+}
+.nav .exit .exitIcon {
+  background-color: red;
+  display: block;
+  width: 40px;
+  height: 40px;
+  color: white;
+  padding: 9px;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.module.css.map */

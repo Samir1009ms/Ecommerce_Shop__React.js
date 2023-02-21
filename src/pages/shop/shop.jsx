@@ -12,7 +12,7 @@ export function Shop({ i }) {
   //   dispatch(removeCart(product));
   // }
 
-  // let car = Object.values(useSelector((product) => product.shop.car));
+  // let cart = Object.values(useSelector((product) => product.shop.cart));
 
   return (
     <section className={s.shop}>

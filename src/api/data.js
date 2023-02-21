@@ -25,6 +25,6 @@ export  class itemsApi {
   }
 
   static async FetchID(itemID) {
-    return (await axios.get(`${BASE_URL}/${itemID}`)).data;
+    return (await axios.get(`${BASE_URL}items/${itemID}`)).data;
   }
 }

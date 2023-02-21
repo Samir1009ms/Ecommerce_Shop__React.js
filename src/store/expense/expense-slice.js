@@ -4,15 +4,10 @@ import { itemsApi } from "../../api/data";
 const addToCart = createSlice({
   name: "shop",
   initialState: {
-    cart: localStorage.getItem("cart")
-      ? JSON.parse(localStorage.getItem("cart"))
-      : [],
-    axtar: [],
-    info: localStorage.getItem("info")
-      ? JSON.parse(localStorage.getItem("info"))
-      : [],
+    cart: {},
     fullData: [],
-    car: {},
+    axtar: [],
+    info:[],
     cem:0
   },
 
@@ -20,25 +15,25 @@ const addToCart = createSlice({
     addCart: (state, action) => {
       let item = action.payload;
       // console.log(item.count);
-      if (state.car[item.id]) {
-        state.car[item.id].count++;
+      if (state.cart[item.id]) {
+        state.cart[item.id].count++;
       } else {
-        state.car[item.id] = item;
+        state.cart[item.id] = item;
         // console.log(item.count);
       }
-      itemsApi.createApi(state.car);
+      itemsApi.createApi(state.cart);
     },
 
     removeCart: (state, action) => {
       let item = action.payload;
       
-      if (state.car[item.id]) {
-        delete state.car[item.id];
+      if (state.cart[item.id]) {
+        delete state.cart[item.id];
       }
-      itemsApi.createApi(state.car);
+      itemsApi.createApi(state.cart);
     },
     cartData: (state, action) => {
-      state.car = action.payload;
+      state.cart = action.payload;
     },
     fetchData: (state, action) => {
       if (state.fullData.length >= 1) {
@@ -49,33 +44,47 @@ const addToCart = createSlice({
     plus: (state, action) => {
       const item = action.payload;
 
-      if (state.car[item.id]) {
-        state.car[item.id].count++;
+      if (state.cart[item.id]) {
+        state.cart[item.id].count++;
       }
-      itemsApi.createApi(state.car);
+      itemsApi.createApi(state.cart);
 
     },
     minus: (state, action) => {
       const item = action.payload;
 
-      if (state.car[item.id].count>1) {
-        state.car[item.id].count--;
+      if (state.cart[item.id].count>1) {
+        state.cart[item.id].count--;
       }
-      itemsApi.createApi(state.car);
+      itemsApi.createApi(state.cart);
     },
     search: (state, action) => {
       const { searchValue } = action.payload;
+      
 
       const map = state.fullData.filter((product) =>
-        product.name.toLowerCase().includes(searchValue.toLowerCase())
+
+        product.name.toLowerCase().includes(searchValue.toLowerCase()) 
       );
 
+      // console.log("map",map);
       if (map >= -1) {
-      } else {
-        if (searchValue !== "") {
-          state.axtar = map;
+
+        console.log("Uzunluq",map.length);
+        state.axtar = [];
+
+      } 
+      else {
+        if (searchValue === "") {
+          
+          state.axtar = [];
+
+
         } else {
-          state.axtar.splice(map);
+          state.axtar = map;
+          console.log("Map Value",JSON.stringify(map,undefined,2));
+
+          
         }
       }
     },

@@ -1,18 +1,72 @@
 import { useDispatch, useSelector } from "react-redux";
 import style from "./style.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {IoChevronBackOutline} from "react-icons/io5"
 import { BsBagPlusFill } from "react-icons/bs";
 import { addCart } from "../../store/expense/expense-slice";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { Rating } from "../../components/rating/rating";
+import { itemsApi } from "../../api/data";
 export function Details() {
-  const { info } = useSelector((product) => product.shop);
-  const im = info.map((element) => element.img[0]);
-  const [img, setImg] = useState(im);
+  
+  const [fullData, setFullData] = useState();
+  let [img,setImg] = useState()
+  const {id}=useParams()
+
+  async function getData(){
+    let data = (await itemsApi.FetchID(id))
+    setFullData(data)
+    setImg(data.img[0])
+    
+  
+  }
+  
+  useEffect(()=>{
+  getData()
+  },[])
+  
+  console.log("ImageData",img)
+  // const [img, setImg] = useState();
+  
   function slect(e) {
     setImg(e);
   }
+  
+  // // const im = fullData
+  
+  // // function getImage(){
+  // //   if(im){
+  // //     const p =im.img[0]
+  // //     console.log("sdfsdf",p);
+  // //       setImg(p)
+        
+  // //     }
+  
+  // // }
+  // function getImage(){
+  //   if(fullData){
+  //   setImg(fullData.img[0])
+  //   console.log("shygdasu",fullData)
+  // } }
+
+
+  // async function getData() {
+  //   try {
+  //     const products = await itemsApi.FetchID(id);
+  //     // dispatch(fetchData(products));
+  //     setFullData(products);
+  //   } catch {
+  //     console.log("error");
+  //   }
+  // }
+
+
+
+  // useEffect(() => {
+  //   getData()
+  //   getImage()
+    
+  // }, []);
 
 
 
@@ -21,38 +75,44 @@ export function Details() {
     const navigate =useNavigate()
 
   return (
+
     <section className={style.item}>
       <div className={style.details}>
         <div  onClick={()=>navigate("/")} className={style.backs}><IoChevronBackOutline /> Back</div>
         <div className={style.product}>
-          {info.map((element, index) => (
-            <div className={style.productContainer} key={index}>
-              <div className={style.productLeft}>
-                {element.img.map((e, i) => (
-                  <img
-                    key={i}
-                    onClick={() => slect(e)}
-                    className={style.imgs}
-                    src={e}
-                    alt=""
-                  />
-                ))}
-              </div>
-              <div className={style.productCenter}>
-                <img className={style.img} src={img} alt="" />
-              </div>
-              <div className={style.productRight}>
-                <h1 className={style.name}>{element.name}</h1>
-                <h4 className={style.model}>{element.model}</h4>
-                <Rating s={style} rating={element.rating} />
-                <p className={style.price}>{element.price}</p>
-                <p className={style.info}>{element.info}</p>
-                <button onClick={()=>dispatch(addCart(element))} className={style.button}>
-                  <BsBagPlusFill className={style.icon} /> Add to Bag
-                </button>
-              </div>
-            </div>
-          ))}
+          
+           <> 
+          { fullData ? 
+           <div className={style.productContainer} key={fullData.id}>
+           <div className={style.productLeft}>
+             {fullData && fullData.img.map((e, i) => (
+               <img
+                 key={i}
+                 onClick={() => slect(e)}
+                 className={style.imgs}
+                 src={e}
+                 alt=""
+               />
+             ))}
+           </div>
+           <div className={style.productCenter}>
+             <img className={style.img} src={img} alt="" />
+           </div>
+           <div className={style.productRight}>
+             <h1 className={style.name}>{fullData.name}</h1>
+             <h4 className={style.model}>{fullData.model}</h4>
+             <Rating s={style} rating={fullData.rating} />
+             <p className={style.price}>{fullData.price}</p>
+             <p className={style.info}>{fullData.info}</p>
+             <button onClick={()=>dispatch(addCart(fullData))} className={style.button}>
+               <BsBagPlusFill className={style.icon} /> Add to Bag
+             </button>
+           </div>
+         </div> : <p>yoxdu</p>}
+           </>
+         
+
+         
         </div>
       </div>
       <div className={style.infox}>

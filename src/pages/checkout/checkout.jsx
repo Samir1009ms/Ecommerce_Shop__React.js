@@ -36,7 +36,7 @@ const [topTotal,settopTotal]=useState(0)
 
 
   function TotalPrice() {
-    car.map(
+    cart.map(
       (product) =>
         // console.log(product.count);
 
@@ -63,8 +63,8 @@ const [topTotal,settopTotal]=useState(0)
 
   const navigate = useNavigate();
 
-  let car = Object.values(useSelector((product) => product.shop.car));
-  console.log(car);
+  let cart = Object.values(useSelector((product) => product.shop.cart));
+  console.log(cart);
   return (
     <section className={s.shop}>
       <div className={s.shopLeft}>
@@ -95,7 +95,7 @@ const [topTotal,settopTotal]=useState(0)
             <button className={s.Btn}>Change</button>
           </div>
         </div>
-        <Details s={s} car={car} />
+        <Details s={s} car={cart} />
       </div>
       <div className={s.shopRight}>
         <div className={s.shopCont}>

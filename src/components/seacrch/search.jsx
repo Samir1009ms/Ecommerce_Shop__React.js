@@ -9,8 +9,12 @@ export function Search() {
 //   const {data}=useSelector(product=>product.shop)
   const dispatch = useDispatch();
 
+  // console.log(searchValue);
   function handleChange (e) {
+    console.log("Search value",e.target.value);
+
     if (e.target.value.trim() === "") {
+
         setSearchValue("");
     } else {
         setSearchValue(e.target.value);

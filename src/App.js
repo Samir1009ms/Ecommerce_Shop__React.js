@@ -7,6 +7,7 @@ import { useDispatch } from "react-redux";
 import { cartData, fetchData } from "./store/expense/expense-slice";
 import { useEffect } from "react";
 
+
 function App() {
   const dispatch = useDispatch();
   async function getData() {
