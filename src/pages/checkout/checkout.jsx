@@ -9,6 +9,8 @@ import {FaCcMastercard} from "react-icons/fa"
 import {IoGift} from "react-icons/io5"
 import {BiCheckboxSquare} from "react-icons/bi"
 import {RxChevronLeft} from "react-icons/rx"
+import { Price } from "./checkoutContainer";
+import { $CombinedState } from "@reduxjs/toolkit";
 
 export function Checkout() {
   const dispatch = useDispatch();
@@ -65,6 +67,8 @@ const [topTotal,settopTotal]=useState(0)
 
   let cart = Object.values(useSelector((product) => product.shop.cart));
   console.log(cart);
+
+  const data =[["Items:",`$`+ totals],["Shipping:",`$`+ shipping],["Estimated GST:",`$`+ gpt],["Gift Card:",`$`+card],["Order Total:",`$`+topTotal]]
   return (
     <section className={s.shop}>
       <div className={s.shopLeft}>
@@ -95,35 +99,14 @@ const [topTotal,settopTotal]=useState(0)
             <button className={s.Btn}>Change</button>
           </div>
         </div>
-        <Details s={s} car={cart} />
       </div>
+        <Details s={s} car={cart} />
       <div className={s.shopRight}>
         <div className={s.shopCont}>
           <h3 className={s.rightName}>Order Summary</h3>
-          {/* //!parcalanma */}
+   
+          <Price data={data}/>
 
-          <p className={s.rightText}>
-            <span className={s.rightTxt}>Items:</span>
-            <span className={s.rightTxt}>$ {totals} </span>
-          </p>
-          {/* //!parcalanma */}
-
-          <p className={s.rightText}>
-            <span className={s.rightTxt}>Shipping:</span>
-            <span className={s.rightTxt}>$ {shipping}</span>
-          </p>
-          <p className={s.rightText}>
-            <span className={s.rightTxt}>Estimated GST:</span>
-            <span className={s.rightTxt}>$ {gpt}</span>
-          </p>
-          <p className={s.rightText}>
-            <span className={s.rightTxt}>Gift Card:</span>
-            <span className={s.rightTxt}>$ {card}</span>
-          </p>
-          <p className={s.rightText}>
-            <span className={s.rightTxt}>Order Total:</span>
-            <span className={s.rightTxt}>$ {topTotal} </span>
-          </p>
           <button className={s.rightBtn}>Place your order</button>
         </div>
         <div className={s.rightBottom}>

@@ -226,35 +226,6 @@
     }
   ],
   "basket": {
-    "bas": {
-      "2": {
-        "id": 2,
-        "name": "Sony ZX331BT",
-        "model": "Light Grey",
-        "price": "39.99",
-        "rating": "3.7",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
-        "count": 1,
-        "img": [
-          "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/qulaqciq.svg",
-          "https://cdn.cimri.io/image/480x480/jbl-tune-510bt-siyah-multi-connect-wireless-kulaklik_528706694.jpg",
-          "https://www.kindpng.com/picc/m/12-126171_bluetooth-kulaklk-kafa-st-hd-png-download.png"
-        ]
-      },
-      "3": {
-        "id": 3,
-        "name": "Iphone 11",
-        "model": "Serious Black",
-        "price": "619.99",
-        "count": 1,
-        "rating": "4.5",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
-        "img": [
-          "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/Apple11-Black.svg",
-          "https://maxi.az/upload/resize_cache/webp/iblock/de2/450x550q100-de2cc82df7acd0d7f15067704b830d11.webp",
-          "https://maxi.az/upload/resize_cache/webp/iblock/c94/450x550q100-c9470097a07f847889738db26f404b07.webp"
-        ]
-      }
-    }
+    "bas": {}
   }
 }
